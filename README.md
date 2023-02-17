@@ -1,4 +1,4 @@
-# spotify2mp3 - Automate downloading spotify playlists to a local folder
+# spotify2mp3
 ![image](https://user-images.githubusercontent.com/48535302/219539970-36128e8b-893d-4233-954a-a5f8008d827f.png)
 
 ## Note:
