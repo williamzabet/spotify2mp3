@@ -143,14 +143,14 @@ def spotify2mp3(spotify_playlist_id, spotify_client_id, spotify_client_secret, y
         submit_button.click()
     
         # Wait for the result
-        time.sleep(1)
+        time.sleep(3)
     
         # Find the convert button and click it
         convert_button = driver.find_element("id", "btn-convert")
         convert_button.click()
     
         # Wait for the download button to appear
-        time.sleep(1)
+        time.sleep(3)
     
         # Find the download button and click it
         download_button = driver.find_element("id", "asuccess")
