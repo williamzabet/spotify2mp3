@@ -42,7 +42,7 @@ With this came the tedious task of creating playlists, I would have to get songs
 
 Once you have everything, change the values of the 6 variables and run the script. The first part of the code will give you authorization to use the spotify API with an access token. It will then store the title and artist for each song within a playlist to an array as "[Song] by [Artist] audio. Afterwards, the youtube api will be used where it will take in the stored array (playlist), and then store the link to the first result into another array (video_links). Selenium will then go to work by using the youtube to mp3 converter website tomp3.cc. It will input each link from the (video_links) array into the submission box, click on the start -> convert -> download buttons. Lastly, the mp3 files within the folder will be renamed to remove the "tomp3.cc - " prefix. 
 
-Note: Any youtube to mp3 converting site will work should this one cease to exist. Using the inspection tool with google chrome on such a site, you can find the unique id's for the submission box and buttons and replace their names in the driver.find_element("id", <UNIQUE ID>) functions. 
+Note: Any youtube to mp3 converting site will work should this one cease to exist. Using the inspection tool with google chrome on such a site, you can find the unique id's for the submission box and buttons and replace their names in the driver.find_element("id", [UNIQUE ID]) functions. 
 
 Here is a link to an example of how this works:  
 
